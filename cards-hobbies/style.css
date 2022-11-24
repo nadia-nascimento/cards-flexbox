@@ -2,7 +2,8 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color:black;
+  background-color;
+  box-sizing: border-box;
 }
 
 a{
@@ -10,27 +11,63 @@ a{
 }
 
 p{
-  font-size: erem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
 .container{
   display: flex;
-  padding: 50px 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
   justify-content: center;
-  
+
 }
 
 .cards{
   width: 270px;
-  height: 350px;
   background-color: white;
   border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.cards:hover{
+  background-color: #c82896ae;
+  color: white;
+  transition: 1s;
+  transition: s;
+}
+
+.cards h2{
+  text-align: center;
   padding-left: 8px;
+  margin: 10px;
+}
+
+.cards p{
+  flex-grow: 1;
+  padding-left: 8px;
+  margin: 5px;
+}
+
+.card-img{
+  height: 150px;
+  background-size: cover;
+
 }
 
 .img-1{
-  background-image: url("img/computer.jpg");
+  background-image: url("img/code.jpg");
+}
+
+.img-2{
+  background-image: url("img/salmon.jpg");
+}
+
+.img-3{
+  background-image: url("img/palace.jpg");
 }
 
 .btn{
@@ -40,5 +77,10 @@ p{
   font-size: 0.8rem;
   color: white;
   padding: 15px;
-  
+  margin: 20px 60px;
+}
+
+.btn:hover{
+  background-color: white;
+  color: black;
 }
