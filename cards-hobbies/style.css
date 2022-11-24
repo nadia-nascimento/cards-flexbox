@@ -1,9 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:family=Sriracha&display=swap');
+
+
 body{
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color;
+  background: linear-gradient(90deg, black, #022a3c) fixed;
   box-sizing: border-box;
+  height: 800px;
 }
 
 a{
@@ -12,7 +17,10 @@ a{
 
 p{
   font-size: 0.9rem;
-  line-height: 1.5;
+  line-height: 1.7;
+  font-family:  Nunito Sans, sans-serif;
+  font-weight: 200;
+  font-style: italic;
 }
 
 .container{
@@ -21,41 +29,47 @@ p{
   gap: 20px;
   padding: 20px 0;
   justify-content: center;
-
 }
 
 .cards{
   width: 270px;
+  height: auto;
   background-color: white;
   border: 2px solid black;
   display: flex;
   flex-direction: column;
-  border-radius: 15px;
+  border-radius: 10px;
+  align-items: center;
+  padding-top: 10px;
 }
 
-.cards:hover{
-  background-color: #c82896ae;
+.cards:hover {
+  background-color: #e84393;
   color: white;
   transition: 1s;
-  transition: s;
+  transform: scale(1.03);
 }
 
 .cards h2{
   text-align: center;
   padding-left: 8px;
   margin: 10px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
 }
 
 .cards p{
   flex-grow: 1;
-  padding-left: 8px;
+  padding-left: 15px;
   margin: 5px;
 }
 
 .card-img{
   height: 150px;
+  width: 150px;
   background-size: cover;
-
+  border: 5px double #022a3c;
+  border-radius: 50%;
 }
 
 .img-1{
@@ -83,4 +97,5 @@ p{
 .btn:hover{
   background-color: white;
   color: black;
+  transition: 1s;
 }
