@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Source+Sans+Pro&family=Sriracha&display=swap');
+
 *{
   padding: 0; 
   margin: 0; 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
 }
 
 body{
-  background-color: #9b9b9b;
+  background: linear-gradient(90deg, black, #022a3c) fixed;
+}
+
+a{
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+a:hover{
+  color: #c96567;
+  transition: 0.7s;
 }
 
 .container{
@@ -31,7 +43,7 @@ body{
 }
 
 .border:hover{
-  border: 1px solid #fff;
+  border: 1px solid #f2f2f2;;
 }
 
 .card{
@@ -69,13 +81,13 @@ body{
 }
 
 .card2{
-  background: url("img/eder.jpg") center center no-repeat;
+  background: url("img/elder.jpg") center center no-repeat;
   background-size: 300px;
-  background-size: cover;
+  
 }
 
 .card2:hover{
-  background: url("img/eder.jpg") left center no-repeat;
+  background: url("img/elder.jpg") left center no-repeat;
   background-size: 600px;
 }
 
@@ -88,13 +100,13 @@ body{
 }
 
 .card3{
-  background: url("img/daniel.jpg") center center no-repeat;
+  background: url("img/dani.jpg") center center no-repeat;
   background-size: 300px;
-  background-size: cover;
+
 }
 
 .card3:hover{
-  background: url("img/daniel.jpg") left center no-repeat;
+  background: url("img/dani.jpg") left center no-repeat;
   background-size: 600px;
 }
 
@@ -166,13 +178,13 @@ background-size: cover;
 }
 
 .card7{
-  background: url("img/lucas.jpg") center center no-repeat;
+  background: url("img/raphinha.jpg") center center no-repeat;
   background-size: 300px;
   background-size: cover;
 }
 
 .card7:hover{
-  background: url("img/lucas.jpg") left center no-repeat;
+  background: url("img/raphinha.jpg") left center no-repeat;
   background-size: 600px;
   background-size: cover;
 }
@@ -244,14 +256,11 @@ background-size: cover;
   opacity: 1;
 }
 
-h2{
-  color: white;
-  margin-left: 20px;
-  opacity: 0;
-  transition: opacity 1s;
-}
 
-.g{
+h2{
+  margin-top: 10px;
+  color: #f2f2f2;
+  margin-left: 20px;
   opacity: 0;
   transition: opacity 1s;
 }
@@ -266,7 +275,12 @@ h2{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
 
+.g{
+  color: #f2f2f2;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 
