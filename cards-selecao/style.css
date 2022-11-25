@@ -100,13 +100,12 @@ a:hover{
 }
 
 .card3{
-  background: url("img/dani.jpg") center center no-repeat;
+  background: url("img/dan.jpg") center center no-repeat;
   background-size: 300px;
-
 }
 
 .card3:hover{
-  background: url("img/dani.jpg") left center no-repeat;
+  background: url("img/dan.jpg") left center no-repeat;
   background-size: 600px;
 }
 
@@ -160,13 +159,12 @@ background-size: cover;
 .card6{
   background: url("img/bruno.jpg") center center no-repeat;
   background-size: 300px;
-background-size: cover;
+  background-size: cover;
 }
 
 .card6:hover{
   background: url("img/bruno.jpg") left center no-repeat;
   background-size: 600px;
-  background-size: cover;
 }
 
 .card6:hover h2{
@@ -200,13 +198,11 @@ background-size: cover;
 .card8{
   background: url("img/marquinho.jpg") center center no-repeat;
   background-size: 300px;
-  background-size: cover;
 }
 
 .card8:hover{
   background: url("img/marquinho.jpg") left center no-repeat;
   background-size: 600px;
-
 }
 
 .card8:hover h2{
@@ -226,7 +222,6 @@ background-size: cover;
 .card9:hover{
   background: url("img/philippe.jpg") left center no-repeat;
   background-size: 600px;
-  
 }
 
 .card9:hover h2{
