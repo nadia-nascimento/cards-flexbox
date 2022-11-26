@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #3aafa9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+  margin: 5%;
+  font-family: Satisfy;
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
+
+h3{
+  color: #17252a;
+  font-size: 1.4rem;
+  margin-top: 35px;
+}
+
+p{
+  line-height: 1.6;
+  color: #8e8e8e;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.team{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
+.team-member{
+  background-color: #feffff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.role{
+  color: #3aafa9;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.team-img{
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  transform: translateX(50%);
+  background-color: #feffff;
+  border-radius: 50%;
+}
+/* a borda de 50% no team-img com o padding do img irá fazer essa curva branca ao redor da imagem*/
