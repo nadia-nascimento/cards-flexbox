@@ -22,8 +22,12 @@ body{
 .card{
   background-color: #feffff;
   width: 300px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ 
 }
 
 .card h2{
@@ -42,13 +46,16 @@ img{
   width: 300px;
 }
 
-.btn{
-  display: block;
-  width: 100%;
+.card .btn{
   border: none;
   background-color: #c4dbf6;
   text-align: center;
   font-size: 1.2rem;
-  padding: 1.5rem;
-
+  padding: 10px 20px;
+  border-radius: 0.4rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  
+  
 }
