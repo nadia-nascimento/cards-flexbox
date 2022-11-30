@@ -11,19 +11,6 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-h2{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin-top: 8px;
-  font-size: 1.3rem;
-  padding: 8px 15px;
-}
-
-p{
-  line-height: 1.6;
-  padding: 8px 15px;
-  flex-grow: 1;
-}
-
 .container{
   display: flex;
   flex-wrap: wrap;
@@ -35,8 +22,21 @@ p{
 .card{
   background-color: #feffff;
   width: 300px;
-  border-bottom-left-radius: 05px;
+  border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.card h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 8px;
+  font-size: 1.3rem;
+  padding: 8px 15px;
+}
+
+.card p{
+  line-height: 1.6;
+  padding: 8px 15px;
+  flex-grow: 1;
 }
 
 img{
@@ -45,9 +45,11 @@ img{
 
 .btn{
 background-color: #c4dbf6;
-display: block;
 text-align: center;
-padding: 20px;
 font-size: 1.2rem;
+display: flex;
+justify-content: center;
+
+padding: 20px 5px;
 
 }
