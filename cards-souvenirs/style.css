@@ -36,7 +36,6 @@ body{
 .card p{
   line-height: 1.6;
   padding: 8px 15px;
-  flex-grow: 1;
 }
 
 img{
@@ -44,12 +43,12 @@ img{
 }
 
 .btn{
-background-color: #c4dbf6;
-text-align: center;
-font-size: 1.2rem;
-display: flex;
-justify-content: center;
-
-padding: 20px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #c4dbf6;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1.5rem;
 
 }
