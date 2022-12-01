@@ -28,10 +28,12 @@ body{
   flex-wrap: wrap;
   border-bottom-left-radius: 0.4rem;
   border-bottom-right-radius: 0.4rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
 
 .card:hover{
-  transform: scale(1.05);
+  transform: scale(1.1);
+  transition: 0.8s ease;
 }
 
 .card p{
