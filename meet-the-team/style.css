@@ -67,12 +67,17 @@ p{
   gap: 20px;
   background-color:#ebeef8;
   text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.card-item:hover{
+  transform: scale(1.1);
+  transition: 0.8s ease;
 }
 
 .card-img{
   max-width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
-
 }
 
 .card-face{
@@ -89,29 +94,24 @@ p{
 /* a borda de 50% no card-face com o padding e o background da mesma cor do fundo irá fazer essa curva branca ao redor da imagem*/
 
 .btn{
-
   background-color: #445ae3;
   text-transform: uppercase;
   color: #eee;
   padding: 10px 15px;
   border-radius: 15px;
   font-size: 0.8rem;
-  margin: 50px 0;
   transition: all 0.5s;
 }
 
 .btn:hover{
-  transform: translateY(-2px);
-  box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.2);
+  transform: scale(2px); /*nao quer funcionar*/
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
 
 .btn:active{
   transform: translateY(0);
   box-shadow: none;
 }
-
-
-
 
 .social-media{
   display: flex;
@@ -124,6 +124,7 @@ p{
 
 .social-media i{
 font-size: 1.5rem;
+transition: 0.5s;
 }
 
 .fa-facebook-square{
@@ -138,9 +139,36 @@ font-size: 1.5rem;
   color: #e6683c;
 }
 
-.fa-linkedin{
-  color: #0072b1;
+.fa-linkedin:hover,
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram-square:hover,
+.fa-linkedin:hover{
+  color: #45e19f;
 }
+
+
+/* @keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+.card-item:nth-child(1){
+  animation: fadeIn .5s .5s backwards;
+}
+.card-item:nth-child(2){
+  animation: fadeIn .5s .1s backwards;
+}
+
+.card-item:nth-child(3){
+  animation: fadeIn .5s 1.5s backwards;
+}
+
+*/
 
 
 
