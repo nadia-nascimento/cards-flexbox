@@ -59,15 +59,26 @@ img{
   text-align: center;
   font-size: 1rem;
   text-transform: uppercase;
-  padding: 10px 20px;
-  border-radius: 0.4rem;
-  margin-bottom: 20px;
+  padding: 10px 80px;
+  border-radius: 0.3rem;
+  margin-bottom: 25px;
   align-self: center;
+  color: #3363ff;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
 }
 
 .card .btn:hover{
-  background-color: #282828;
-  color: #feffff;
-  transition: 0.9s;
+  background-color: #d8e0fd;
+  color: #3363ff;
+  transition: 0.2s;
+}
+
+span{
+  margin-left: 15px;
+}
+
+.card:hover span, .card:active span{
+  margin-left: 1.5rem;
 }
 

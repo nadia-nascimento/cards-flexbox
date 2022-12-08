@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h3, p{
+  padding: 0 8px;
+  margin-bottom: 10px;
+  color: #777;
+  font-size: 0.8rem;
+}
+
+h2{
+  padding: 5px 8px;
+  color:#333;
+}
+
+p{
+ line-height:1.5;
+ margin-bottom: 30px;
+}
+
+.heading{
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #333;
+  position: relative;
+  margin: 50px 0;
+}
+
+.heading:after{
+  content: "";
+  width: 70px;
+  height: 5px;
+  background-color: aqua;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  }
+
+.card-item{
+  width: 300px;
+  gap: 20px;
+  background-color:#ebeef8;
+  text-align: center;
+}
+
+.card-img{
+  max-width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+
+}
+
+.card-face{
+  width: 150px;
+  height:150px;
+  margin-top: -50%;
+  object-fit: cover;
+  position: relative;
+  border-radius: 50%;
+  background-color:#ebeef8;
+  padding: 10px;
+}
+
+/* a borda de 50% no card-face com o padding e o background da mesma cor do fundo irá fazer essa curva branca ao redor da imagem*/
+
+.btn{
+
+  background-color: #445ae3;
+  text-transform: uppercase;
+  color: #eee;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin: 50px 0;
+  transition: all 0.5s;
+}
+
+.btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active{
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+
+
+
+.social-media{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 10px 0;
+  padding: 30px 0 15px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1) ;
+}
+
+.social-media i{
+font-size: 1.5rem;
+}
+
+.fa-facebook-square{
+  color: #3b5999;
+}
+
+.fa-twitter-square{
+  color: #55acee;
+}
+
+.fa-instagram-square{
+  color: #e6683c;
+}
+
+.fa-linkedin{
+  color: #0072b1;
+}
+
+
+
+
+
