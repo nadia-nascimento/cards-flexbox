@@ -3,6 +3,7 @@
 body{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   background-color: #f2f2f2;
 }
@@ -22,6 +23,8 @@ a{
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card{
@@ -31,12 +34,40 @@ a{
   padding: 30px;
 }
 
-.pic{
+.card:hover{
+  
+}
 
-  max-width: 100%;
-  object-fit: cover;
+.card .pic{
+  display: block;
+  width: 130px;
+  height: 130px;
+  z-index: 1;
+  position: relative;
+
+}
+
+.card .pic::before{
+  content: "";
+  width: 100%;
+  border-radius: 50%;
+  background-color: #5680e9;
+  position: absolute;
+  box-orient: 135%;
+  right: 0;
+  left: 0;
 }
 
 .card h2{
+ 
+}
 
+.icons i{
+  display: none;
+}
+
+.icons i:hover{
+  display: ;
+  padding: 0 15px;
+  background-color: #5680e9;
 }
